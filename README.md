@@ -7,3 +7,6 @@
 * możliwość zapisania/wczytania gry
 * grafika/interfejs w arcade
 
+## Narzędzia:
+* python3
+* arcade
