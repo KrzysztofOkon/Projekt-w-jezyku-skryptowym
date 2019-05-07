@@ -55,6 +55,3 @@ def fountain_room():
     tmp = room(3, 3)
     tmp.add_element("fountain", 1, 1)
     return tmp
-
-aa=fountain_room()
-print(aa)

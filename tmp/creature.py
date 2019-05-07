@@ -1,14 +1,3 @@
-##dict warrior
-## hp mnoznik 2
-## mana mnoznik 0.5
-
-##dict rouge
-## hp mnoznik 1.25
-## mana mnoznik 1.25
-
-## dict mage
-## hp mnoznik 0.5
-## mana mnoznik 2
 
 class monster:
     def __init__(self,level,type):
@@ -20,6 +9,8 @@ class monster:
         self.mana=self.max_mana
         ##self.status=""
         self.dead="alive"
+        self.ad=20*level
+        self.ap=20*level
 
     def lose_hp(self,x):
         if(x>=self.hp):
@@ -27,6 +18,9 @@ class monster:
             self.hp=0
         else:
             self.hp-=x
+
+    def lose_mana(self,x):
+        self.mana-=x
 
     def rest(self):
         self.hp=self.max_hp
@@ -46,7 +40,5 @@ class monster:
 
     def show_stats(self):
         print("hp: ",self.hp)
+        print("mana: ",self.mana)
         print("is alive?:",self.dead)
-
-
-aa=creature(1,1)
