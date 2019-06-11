@@ -4,7 +4,7 @@ import combat
 
 
 def player_move(player,ai):
-    print("\n\n1. ataak")
+    print("\n\n1. atak")
     if player.type=="mage":
         print("2. fireball")
         print("3. blizzard")
