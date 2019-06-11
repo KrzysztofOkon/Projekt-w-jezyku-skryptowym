@@ -10,4 +10,5 @@ generowane losowo poziomy + walki z bossem
 
 ## wykorzystane narzędzia
 - python3
-- numpy
+- biblioteka numpy
+- biblioteka random
