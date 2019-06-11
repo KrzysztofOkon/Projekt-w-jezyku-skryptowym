@@ -1,0 +1,13 @@
+# Raport końcowy
+
+## co się udało zobić
+-rożne klasy postaci (po 2 umiejętności dla każdej) i 4 rodzaje wrogów
+generowane losowo poziomy + walki z bossem
+
+## co się nie udało
+- zapis/wczytywanie gry
+- grafika/interfejs w arcade
+
+## wykorzystane narzędzia
+- python3
+- numpy
